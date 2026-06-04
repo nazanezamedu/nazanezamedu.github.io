@@ -1,0 +1,97 @@
+```html
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Naza</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #0f0f0f; /* YouTube dark background */
+      font-family: 'Roboto', Arial, sans-serif;
+      color: #f1f1f1;
+    }
+
+    .card {
+      background-color: #181818;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.7);
+      text-align: center;
+      padding: 40px;
+      width: 90%;
+      max-width: 400px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+      box-shadow: 0 0 30px rgba(255,0,0,0.4);
+    }
+
+    .avatar {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      background: radial-gradient(circle at top left, #ff0000, #cc0000);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 48px;
+      color: #fff;
+      margin: 0 auto 20px;
+    }
+
+    h1 {
+      font-size: 1.8em;
+      margin: 10px 0;
+    }
+
+    h2 {
+      font-weight: normal;
+      color: #aaa;
+      margin-bottom: 20px;
+    }
+
+    .skills span {
+      display: inline-block;
+      background-color: #ff0000;
+      color: #fff;
+      padding: 6px 12px;
+      border-radius: 6px;
+      font-size: 0.9em;
+    }
+
+    .fact {
+      margin-top: 20px;
+      font-style: italic;
+      color: #bbb;
+    }
+
+    .yt-bar {
+      width: 100%;
+      height: 4px;
+      background: linear-gradient(to right, #ff0000, #cc0000);
+      border-radius: 2px;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="yt-bar"></div>
+    <div class="avatar">N</div>
+    <h1>Naza</h1>
+    <h2>Site Reliability Engineer (SRE)</h2>
+    <div class="skills">
+      <span>Kubernetes</span>
+    </div>
+    <p class="fact">Fakta menarik: Pernah menulis skrip bash sambil menonton video kucing.</p>
+  </div>
+</body>
+</html>
+```
